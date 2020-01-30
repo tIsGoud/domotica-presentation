@@ -175,10 +175,10 @@ en wat kun je zelf?
 <!-- .slide: data-menu-title="KlikAanKlikUit set" -->
 ## KlikAanKlikUit
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-|![KAKU schakelaar](images/kaku-schakelaar.png)|![KAKU bediening](images/kaku-bediening.png)|![KAKU Control Station](images/kaku-octopus.png)|![KAKU app](images/kaku-app.png)
-|**Lamp**|**Bediening**|**Control Station**|**App**|
+|                                                |                                              |                                                  |                                  |
+| :--------------------------------------------: | :------------------------------------------: | :----------------------------------------------: | :------------------------------: |
+| ![KAKU schakelaar](images/kaku-schakelaar.png) | ![KAKU bediening](images/kaku-bediening.png) | ![KAKU Control Station](images/kaku-octopus.png) | ![KAKU app](images/kaku-app.png) |
+|                    **Lamp**                    |                **Bediening**                 |               **Control Station**                |             **App**              |
 
 note:
 
@@ -212,10 +212,10 @@ Multiprotocol gateway:
 <!-- .slide: data-menu-title="Philips Hue" -->
 ## Philips Hue
 
-| | | |
-|:---:|:---:|:---:|
-|![Hue lamp](images/hue_lamp.png)|![Hue Bridge](images/hue_bridge.png) |![Hue App](images/hue_app.png)|
-|**Lamp**|**Bridge**|**App**|
+|                                  |                                      |                                |
+| :------------------------------: | :----------------------------------: | :----------------------------: |
+| ![Hue lamp](images/hue_lamp.png) | ![Hue Bridge](images/hue_bridge.png) | ![Hue App](images/hue_app.png) |
+|             **Lamp**             |              **Bridge**              |            **App**             |
 
 --
 
@@ -243,10 +243,10 @@ Multiprotocol gateway:
 <!-- .slide: data-menu-title="Ikea TR&#x00C5;DFRI" -->
 ## Ikea TR&Aring;DFRI
 
-| | | |
-|:---:|:---:|:---:|
-|![IKEA lamp](images/ikea_lamp.png)|![IKEA Gateway](images/ikea_gateway.png)|![IKEA app](images/ikea_app.png)|
-|**Lamp**|**Gateway**|**App**|
+|                                    |                                          |                                  |
+| :--------------------------------: | :--------------------------------------: | :------------------------------: |
+| ![IKEA lamp](images/ikea_lamp.png) | ![IKEA Gateway](images/ikea_gateway.png) | ![IKEA app](images/ikea_app.png) |
+|              **Lamp**              |               **Gateway**                |             **App**              |
 
 note: å = &#x00E5;, Å = &#x00C5;
 
@@ -267,10 +267,10 @@ note: å = &#x00E5;, Å = &#x00C5;
 <!-- .slide: data-menu-title="Tado&deg;" -->
 ## Tado&deg;
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-|![Tado&deg; Thermostaat](images/tado_thermostaat.png)|![Tado&deg; radiator kraan](images/tado_radiator_kraan.png)|![Tado&deg; gateway](images/tado_gateway.png)|![Tado&deg; app](images/tado_app.png)|
-|**Thermostaat**|**Kraan**|**Gateway**|**App**|
+|                                                       |                                                             |                                               |                                       |
+| :---------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------: | :-----------------------------------: |
+| ![Tado&deg; Thermostaat](images/tado_thermostaat.png) | ![Tado&deg; radiator kraan](images/tado_radiator_kraan.png) | ![Tado&deg; gateway](images/tado_gateway.png) | ![Tado&deg; app](images/tado_app.png) |
+|                    **Thermostaat**                    |                          **Kraan**                          |                  **Gateway**                  |                **App**                |
 
 --
 
@@ -290,10 +290,10 @@ note: å = &#x00E5;, Å = &#x00C5;
 <!-- .slide: data-menu-title="Sonoff" -->
 ## Sonoff
 
-| | | |
-|:---:|:---:|:---:|
-|![Sonoff switch](images/sonoff_switch.png)|![Sonoff lamp](images/sonoff_lamp.png)|![Sonoff app](images/sonoff_app.png)|
-|**Schakelaar**|**Lamp**|**App**|
+|                                            |                                        |                                      |
+| :----------------------------------------: | :------------------------------------: | :----------------------------------: |
+| ![Sonoff switch](images/sonoff_switch.png) | ![Sonoff lamp](images/sonoff_lamp.png) | ![Sonoff app](images/sonoff_app.png) |
+|               **Schakelaar**               |                **Lamp**                |               **App**                |
 
 note:
 
@@ -324,10 +324,10 @@ Flashen met Tasmota
 <!-- .slide: data-menu-title="Xiaomi" -->
 ## Xiaomi
 
-| | | |
-|:---:|:---:|:---:|
-|![Xiaomi sensor](images/xiaomi_sensors.png)|![Xiaom gateway](images/xiaomi_gateway.png)|![Xiaomi app](images/xiaomi_app.png)|
-|**Sensors**|**Gateway**|**App**|
+|                                             |                                             |                                      |
+| :-----------------------------------------: | :-----------------------------------------: | :----------------------------------: |
+| ![Xiaomi sensor](images/xiaomi_sensors.png) | ![Xiaom gateway](images/xiaomi_gateway.png) | ![Xiaomi app](images/xiaomi_app.png) |
+|                 **Sensors**                 |                 **Gateway**                 |               **App**                |
 
 --
 
@@ -346,10 +346,10 @@ Flashen met Tasmota
 <!-- .slide: data-menu-title="Shelly"  -->
 ## Shelly
 
-| | | |
-|:---:|:---:|:---:|
-|![Shelly switch](images/shelly1_switch.png)|![Shelly lamp](images/shelly_lamp.png)|![Shelly app](images/shelly_app.jpg)|
-|**Switch**|**Lamp**|**App**|
+|                                             |                                        |                                      |
+| :-----------------------------------------: | :------------------------------------: | :----------------------------------: |
+| ![Shelly switch](images/shelly1_switch.png) | ![Shelly lamp](images/shelly_lamp.png) | ![Shelly app](images/shelly_app.jpg) |
+|                 **Switch**                  |                **Lamp**                |               **App**                |
 
 note:
 
@@ -372,10 +372,10 @@ note:
 <!-- .slide: data-menu-title="LSC (Tuya)" data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
 ## LSC (Tuya)
 
-| | | |
-|:---:|:---:|:---:|
-|![LSC Plug](images/lsc_plug.png)|![LSC lamp](images/lsc_lamp.png)|![LSC app](images/lsc_app.jpg)|
-|**Stekker**|**Lamp**|**App**|
+|                                  |                                  |                                |
+| :------------------------------: | :------------------------------: | :----------------------------: |
+| ![LSC Plug](images/lsc_plug.png) | ![LSC lamp](images/lsc_lamp.png) | ![LSC app](images/lsc_app.jpg) |
+|           **Stekker**            |             **Lamp**             |            **App**             |
 
 --
 
@@ -394,6 +394,8 @@ note:
 ## LSC (Tuya) firmware
 
 ![Tuya flashable devices](images/action_tuya_devices.jpeg)<!-- .element height="90%" width="90%" -->
+
+[Tuya-Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
 ---
 
@@ -430,10 +432,17 @@ AppleTV
 iPhone
 Hue
 
+GitHub OpenSource
+
 ---
 
 <!-- .slide: data-menu-title="Security" -->
 ## Security
+
+- Waar gaat jouw data naar toe?
+- Wat kun je met die data
+- Werkt dit
+- Lijkt beter ;-)
 
 ---
 
@@ -554,13 +563,21 @@ note:
 
 ## Espressif based Wemos, ESP8266 of ESP32
 
+[Ali Express]
+
 --
 
 ## EspHome
 
+[ESPHome](https://esphome.io/)
+
 --
 
 ## Tasmota
+
+![Tasmota logo](images/tasmota-logo.svg)<!-- .element height="50%" width="50%" -->
+
+[Tasmota](https://tasmota.github.io/docs/#/)
 
 ---
 
@@ -572,7 +589,18 @@ note:
 <!-- .slide: data-menu-title="Smart doorbell" -->
 ## Slimme Deurbel
 
-2 oplossingen
+![Smart doorbell](images/diy-smart-doorbell-test-bench.png)<!-- .element height="70%" width="70%" -->
+
+[Smart doorbell for just $2](https://frenck.dev/diy-smart-doorbell-for-just-2-dollar/)
+
+--
+
+<!-- .slide: data-menu-title="Flash Tasmota firmware on lamp" -->
+## Flash lamp met Tasmota
+
+Flash een LSC lamp van de Action met
+
+[Tuya - Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
 --
 
@@ -580,13 +608,6 @@ note:
 ## Temperatuur sensor
 
 Wemos + sensor + EspHome
-
---
-
-<!-- .slide: data-menu-title="Flash Tasmota firmware on lamp" -->
-## Flash lamp met Tasmota
-
-Lamp van de Action
 
 ---
 
