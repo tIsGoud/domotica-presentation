@@ -7,6 +7,7 @@ GroSkills 5th edition, 6 februari 2020
 &#x1F93D;&#x200D;&#x2642;&#xFE0F;
 
 - Visualisatie
+- DeConz [Compatibility list](https://zigbee.blakadder.com/deconz.html)
 
 ---
 
@@ -69,6 +70,16 @@ note: Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/g
 - Je wordt er afhankelijk van
 - Het kost te veel tijd
 
+--
+
+<!-- .slide: data-menu-title="Security" -->
+## Security
+
+- Waar gaat jouw data naar toe?
+- Wat kun je met die data
+- Werkt dit
+- Lijkt beter ;-)
+
 ---
 
 <!-- .slide: data-menu-title="Waarom wel" -->
@@ -90,12 +101,12 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="Wat wil je automatiseren" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
+<!-- .slide: data-menu-title="Wat wil je automatiseren" data-background-image="images/modern-times-work.gif" data-background-opacity="0.3"-->
 ## Wat wil je automatiseren?
 
 --
 
-<!-- .slide: data-menu-title="Voorbeelden" -->
+<!-- .slide: data-menu-title="Voorbeelden" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
 ## Voorbeelden
 
 --
@@ -133,12 +144,11 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 ## Signalen - Protocollen
 
 - WiFi, 2,4 GHz
-- Bluetooth
 - Zigbee
+- 6LoWPAN
 - Zwave
 - RF, X10 afgeleide
 - X10
-- Ethernet (wired)
 - CHIP, Connected Home over IP(v6)
   - protocol in ontwikkeling
 - MQTT, pub-sub messaging
@@ -162,6 +172,18 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 ## Wat is er op de markt?
 
 en wat kun je zelf?
+
+note:
+
+Overgeleverd aan een leverancier of zelf in controle?
+
+--
+
+|              |                 Zigbee                 |              WiFi               |
+| :----------- | :------------------------------------: | :-----------------------------: |
+| Manufacturer | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi | Sonoff, Shelly, Tuya, Espressif |
+| Controller   |           on premise, cloud            |        app, cloud based         |
+| Modification |      DeConz, Zigbee2MQTT, Tasmota      |        Tasmota, ESPHome         |
 
 ---
 
@@ -197,7 +219,7 @@ Multiprotocol gateway:
 - Groeiend assortiment
 - Integratie met Philips Hue via gateway
 - Geen API's, gesloten eco-systeem
-- RF technologie, "fire-and_forget"
+- RF technologie, "fire-and-forget"
 
 --
 
@@ -264,6 +286,28 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 ---
 
+<!-- .slide: data-menu-title="Xiaomi" -->
+## Xiaomi
+
+|                                             |                                             |                                      |
+| :-----------------------------------------: | :-----------------------------------------: | :----------------------------------: |
+| ![Xiaomi sensor](images/xiaomi_sensors.png) | ![Xiaom gateway](images/xiaomi_gateway.png) | ![Xiaomi app](images/xiaomi_app.png) |
+|                 **Sensors**                 |                 **Gateway**                 |               **App**                |
+
+--
+
+<!-- .slide: data-menu-title="Xiaomi characteristics" data-background-image="images/xiaomi_logo_bg.png" data-background-opacity="0.1" -->
+## Xiaomi kenmerken
+
+- Protocol: Zigbee
+- Standaard Chinese Cloud
+- Grote Chinese speler
+- Sensoren, Switches, IP Camera, Doorbell
+- Alternatieve Zigbee gateways mogelijk
+  - Deconz of Zigbee2MQTT
+
+---
+
 <!-- .slide: data-menu-title="Tado&deg;" -->
 ## Tado&deg;
 
@@ -321,28 +365,6 @@ Flashen met Tasmota
 
 ---
 
-<!-- .slide: data-menu-title="Xiaomi" -->
-## Xiaomi
-
-|                                             |                                             |                                      |
-| :-----------------------------------------: | :-----------------------------------------: | :----------------------------------: |
-| ![Xiaomi sensor](images/xiaomi_sensors.png) | ![Xiaom gateway](images/xiaomi_gateway.png) | ![Xiaomi app](images/xiaomi_app.png) |
-|                 **Sensors**                 |                 **Gateway**                 |               **App**                |
-
---
-
-<!-- .slide: data-menu-title="Xiaomi characteristics" data-background-image="images/xiaomi_logo_bg.png" data-background-opacity="0.1" -->
-## Xiaomi kenmerken
-
-- Protocol: Zigbee
-- Standaard Chinese Cloud
-- Grote Chinese speler
-- Sensoren, Switches, IP Camera, Doorbell
-- Alternatieve Zigbee gateways mogelijk
-  - Deconz of Zigbee2MQTT
-
----
-
 <!-- .slide: data-menu-title="Shelly"  -->
 ## Shelly
 
@@ -397,6 +419,8 @@ note:
 
 [Tuya-Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
+[Tasmota templates](https://templates.blakadder.com)
+
 ---
 
 <!-- .slide: data-menu-title="Works with ... (voice)" -->
@@ -436,13 +460,96 @@ GitHub OpenSource
 
 ---
 
-<!-- .slide: data-menu-title="Security" -->
-## Security
+<!-- .slide: data-menu-title="Opties" -->
+## Opties: controle vs gemak
 
-- Waar gaat jouw data naar toe?
-- Wat kun je met die data
-- Werkt dit
-- Lijkt beter ;-)
+- WiFi: leveranciers firmware of eigen?
+- Zigbee: leveranciers gateway of eigen?
+- DIY / Zelfbouw
+
+note:
+
+Wat zijn de mogelijkheden?
+
+--
+
+|              |              WiFi               |                 Zigbee                 |
+| :----------- | :-----------------------------: | :------------------------------------: |
+| Manufacturer | Sonoff, Shelly, Tuya, Espressif | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi |
+| Controller   |        app, cloud based         |           on premise, cloud            |
+| Modification |        Tasmota, ESPHome         |      DeConz, Zigbee2MQTT, Tasmota      |
+
+---
+
+<!-- .slide: data-menu-title="WiFi firmware" -->
+## WiFi firmware vervangen
+
+Twee opties:
+
+- Fysiek
+- OTA
+
+--
+
+<!-- .slide: data-menu-title="Tasmota" -->
+## Tasmota
+
+![Tasmota logo](images/tasmota-logo.svg)<!-- .element height="50%" width="50%" -->
+
+[Tasmota](https://tasmota.github.io/docs/#/)
+
+[Tasmota template list](https://templates.blakadder.com/index.html)
+
+note: Theo Arends
+
+--
+
+<!-- .slide: data-menu-title="ESPHome" -->
+## ESPHome
+
+[ESPHome](https://esphome.io/)
+
+![ESPHome logo](images/esphome.svg)
+
+---
+
+<!-- .slide: data-menu-title="Zigbee gateway vervangen" -->
+## Zigbee gateway vervangen
+
+Twee opties:
+
+- Gateway kant en klaar kopen
+- Gateway onderdelen kopen
+
+--
+
+<!-- .slide: data-menu-title="DeconZ" -->
+## DeconZ
+
+--
+
+<!-- .slide: data-menu-title="Zigbee2MQTT" -->
+## Zigbee2MQTT
+
+--
+
+<!-- .slide: data-menu-title="Tasmota Zigbee" -->
+## Tasmota Zigbee
+
+Nieuwe optie bij Tasmota
+
+---
+
+<!-- .slide: data-menu-title="DIY Building Blocks" -->
+## DIY Bouwblokken
+
+--
+
+<!-- .slide: data-menu-title="Espressif" -->
+## Espressif based Wemos: ESP8266 of ESP32
+
+Espressif Wemos
+[Ali Express]
 
 ---
 
@@ -556,31 +663,6 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="DIY Building Blocks" -->
-## DIY Bouwblokken
-
---
-
-## Espressif based Wemos, ESP8266 of ESP32
-
-[Ali Express]
-
---
-
-## EspHome
-
-[ESPHome](https://esphome.io/)
-
---
-
-## Tasmota
-
-![Tasmota logo](images/tasmota-logo.svg)<!-- .element height="50%" width="50%" -->
-
-[Tasmota](https://tasmota.github.io/docs/#/)
-
----
-
 <!-- .slide: data-menu-title="DIY Projects" -->
 ## DIY Projecten
 
@@ -608,6 +690,10 @@ Flash een LSC lamp van de Action met [Tuya - Convert](https://www.heise.de/ct/ar
 ## Temperatuur sensor
 
 Wemos + sensor + EspHome
+
+note:
+
+Wemos met temperatuur sensor laten zien.
 
 ---
 
