@@ -598,9 +598,9 @@ note:
 <!-- .slide: data-menu-title="Flash Tasmota firmware on lamp" -->
 ## Flash lamp met Tasmota
 
-Flash een LSC lamp van de Action met
+![Tasmota FLB04](images/tasmota-flb04.png)<!-- .element height="20%" width="20%" -->
 
-[Tuya - Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
+Flash een LSC lamp van de Action met [Tuya - Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
 --
 
