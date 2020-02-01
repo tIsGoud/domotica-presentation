@@ -6,8 +6,12 @@ note:
 GroSkills 5th edition, 6 februari 2020
 &#x1F93D;&#x200D;&#x2642;&#xFE0F;
 
-- Visualisatie
-- DeConz [Compatibility list](https://zigbee.blakadder.com/deconz.html)
+Todo:
+
+- Visualisatie? Grafana
+- links bijwerken
+- tekst in de titels nazien
+- slide tekst in het Engels en Nederlands
 
 ---
 
@@ -35,6 +39,27 @@ GroSkills 5th edition, 6 februari 2020
 
 ---
 
+<!-- .slide: data-menu-title="Modern Times - Automated Eating" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.7" -->
+
+## Modern Times (1936)
+
+--
+
+<!-- .slide: data-menu-title="Domotica initieel" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.3" -->
+## Domotica initieel
+
+Oorspronkelijk
+
+bedoelt voor
+
+personen met
+
+een "functiebeperking"
+
+note: Charlie Chaplin in Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/giphy.gif)
+
+---
+
 <!-- .slide: data-menu-title="Definitions" data-background-image="images/wikipedia.png" data-background-opacity="0.1" -->
 ## Definities
 
@@ -43,19 +68,6 @@ GroSkills 5th edition, 6 februari 2020
 > De integratie van technologie en diensten, ten behoeve van een betere kwaliteit van wonen en leven.<!-- .element: class="fragment" data-fragment-index="2" -->
 
 note: Bronnen Wikipedia en Stichting Smart Homes
-
---
-
-<!-- .slide: data-menu-title="Modern Times - Automated Eating" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.9" -->
-
-note: Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/giphy.gif)
-
----
-
-<!-- .slide: data-menu-title="Praktijkvoorbeelden" -->
-## Praktijk voorbeelden
-
-- Initieel voor personen met een "functiebeperking"
 
 ---
 
@@ -76,9 +88,11 @@ note: Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/g
 ## Security
 
 - Waar gaat jouw data naar toe?
-- Wat kun je met die data
-- Werkt dit
-- Lijkt beter ;-)
+- Wat kan iemand met jouw data?
+- Je huis in gijzeling? Ransomware?
+- etc.
+- etc.
+- etc.
 
 ---
 
@@ -183,7 +197,7 @@ Overgeleverd aan een leverancier of zelf in controle?
 | :----------- | :------------------------------------: | :-----------------------------: |
 | Manufacturer | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi | Sonoff, Shelly, Tuya, Espressif |
 | Controller   |           on premise, cloud            |        app, cloud based         |
-| Modification |      DeConz, Zigbee2MQTT, Tasmota      |        Tasmota, ESPHome         |
+| Modification |  DeConz/Conbee, Zigbee2MQTT, Tasmota   |        Tasmota, ESPHome         |
 
 ---
 
@@ -249,7 +263,7 @@ Multiprotocol gateway:
 - Groeiend "exclusief" assortiment
 - Eigen gateway
 - Alternatieve Zigbee gateways mogelijk
-  - Deconz of Zigbee2MQTT
+  - Deconz/Cponbee, Tasmota of Zigbee2MQTT
 
 --
 
@@ -282,7 +296,7 @@ note: å = &#x00E5;, Å = &#x00C5;
 - Groeiend "betaalbaar" assortiment
 - Eigen gateweay
 - Alternatieve Zigbee gateways mogelijk
-  - Deconz of Zigbee2MQTT
+  - Deconz/Conbee, Tasmota of Zigbee2MQTT
 
 ---
 
@@ -304,7 +318,7 @@ note: å = &#x00E5;, Å = &#x00C5;
 - Grote Chinese speler
 - Sensoren, Switches, IP Camera, Doorbell
 - Alternatieve Zigbee gateways mogelijk
-  - Deconz of Zigbee2MQTT
+  - Deconz/Conbee, Tasmota of Zigbee2MQTT
 
 ---
 
@@ -477,7 +491,7 @@ Wat zijn de mogelijkheden?
 | :----------- | :-----------------------------: | :------------------------------------: |
 | Manufacturer | Sonoff, Shelly, Tuya, Espressif | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi |
 | Controller   |        app, cloud based         |           on premise, cloud            |
-| Modification |        Tasmota, ESPHome         |      DeConz, Zigbee2MQTT, Tasmota      |
+| Modification |        Tasmota, ESPHome         |  Deconz, Conbee, Zigbee2MQTT, Tasmota  |
 
 ---
 
@@ -496,20 +510,28 @@ Twee opties:
 
 ![Tasmota logo](images/tasmota-logo.svg)<!-- .element height="50%" width="50%" -->
 
-[Tasmota](https://tasmota.github.io/docs/#/)
+[Tasmota documentation](https://tasmota.github.io/docs/#/)
 
 [Tasmota template list](https://templates.blakadder.com/index.html)
 
-note: Theo Arends
+note:
+
+Theo Arends
+
+Templates bevatten de specifieke device informatie
 
 --
 
 <!-- .slide: data-menu-title="ESPHome" -->
 ## ESPHome
 
+![ESPHome logo](images/esphome.svg)
+
 [ESPHome](https://esphome.io/)
 
-![ESPHome logo](images/esphome.svg)
+note:
+
+Home Assistant integratie
 
 ---
 
@@ -523,33 +545,88 @@ Twee opties:
 
 --
 
-<!-- .slide: data-menu-title="DeconZ" -->
-## DeconZ
+<!-- .slide: data-menu-title="Conbee" data-background-image="images/phoscongw.png" data-background-opacity="0.2" -->
+## Conbee
+
+Conbee, the universal Zigbee USB gateway
+![Conbee](images/conbee.jpg)
+
+
+[Phoscon / Conbee](https://phoscon.de/en/conbee)
+
+Kosten: 40 euro, snelle levering
+
+note:
+
+Complete omgeving
 
 --
 
-<!-- .slide: data-menu-title="Zigbee2MQTT" -->
-## Zigbee2MQTT
+<!-- .slide: data-menu-title="Zigbee2mqtt" -->
+## Zigbee2mqtt
+
+![Zigbee2mqtt logo](images/zigbee2mqtt-logo.png)
+
+[GitHub/KoenKK/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt)
+
+[Zigbee2mqtt Documentatie](https://www.zigbee2mqtt.io)
+
+CC2531 USB sniffer, debugger etc.
+
+Kosten: 18 euro, lange levertijd
+
+note:
+
+Onderdelen kopen, hardware flashen met extra hardware.
+7 euro voor  Sniffer en extra kabel
+11 euro voor de flash hardware
+
+beware: limited number of zigbee devices, [further reading](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator)
 
 --
 
 <!-- .slide: data-menu-title="Tasmota Zigbee" -->
 ## Tasmota Zigbee
 
-Nieuwe optie bij Tasmota
+"Zigbee2mqtt rewrite to make it fit on an ESP82xx"
+
+![Tasmota logo](images/tasmota-blue-logo.svg)<!-- .element height="50%" width="50%" -->
+
+[Documentation](https://tasmota.github.io/docs/#/Zigbee),
+[Device Compatibility Repository](https://zigbee.blakadder.com/zigbee2tasmota.html)
+
+CC2530 device + Wemos
+
+Kosten: 10 of 12 euro, lange levertijd
+
+note:
+
+Onderdelen kopen, hardware flashen met extra hardware.
+5 of 7 euro voor de Sniffer
+2 ero voor de kabel
+3 euro voor de Wemos
+
+beware: limited number of zigbee devices, [further reading](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator)
 
 ---
 
-<!-- .slide: data-menu-title="DIY Building Blocks" -->
-## DIY Bouwblokken
+<!-- .slide: data-menu-title="DIY / Zelfbouw" -->
+## DIY / Zelfbouw
 
 --
 
-<!-- .slide: data-menu-title="Espressif" -->
-## Espressif based Wemos: ESP8266 of ESP32
+<!-- .slide: data-menu-title="Espressif: ESP8266 & ESP32" data-background-image="images/ESP8266.jpg" data-background-opacity="0.1" -->
+## Espressif: ESP8266 & ESP32
 
-Espressif Wemos
-[Ali Express]
+[ESP8266](https://nl.aliexpress.com/item/32958591238.html) WiFi + IO ~ 3 euro
+
+[ESP32](https://www.aliexpress.com/item/33057018346.html) WiFi + BLE + IO ~ 5 euro
+
+[ESP32 met camera](https://nl.aliexpress.com/item/4000339060257.html) ~ 6 euro
+
+![ESP 32 met cam](images/ESP32_cam.png)<!-- .element height="20%" width="20%" -->
+
+via Ali Express of Banggood
 
 ---
 
@@ -663,13 +740,42 @@ note:
 
 ---
 
+<!-- .slide: data-menu-title="Hoe begin je?" data-background-image="images/swimmer-on-starting-block-cropped.jpg" data-background-opacity="0.4" -->
+## Hoe begin je?
+
+- Doel: wat is het, dat je wil bereiken? <!-- .element: class="fragment" data-fragment-index="1" -->
+- Inventarisatie: wat heb je nu? <!-- .element: class="fragment" data-fragment-index="2" -->
+- Analyse: wat onbreekt er nog? <!-- .element: class="fragment" data-fragment-index="3" -->
+- Planning: maak een plan <!-- .element: class="fragment" data-fragment-index="4" -->
+- Actie:<!-- .element: class="fragment" data-fragment-index="5" -->
+  - middelen<!-- .element: class="fragment" data-fragment-index="6" -->
+  - kennis<!-- .element: class="fragment" data-fragment-index="7" -->
+  - aan de slag!<!-- .element: class="fragment" data-fragment-index="8" -->
+
+---
+
 <!-- .slide: data-menu-title="DIY Projects" -->
 ## DIY Projecten
 
 --
 
-<!-- .slide: data-menu-title="Smart doorbell" -->
-## Slimme Deurbel
+<!-- .slide: data-menu-title="DIY Temperature sensor" data-background-image="images/wemos-dht-shield.png" data-background-opacity="0.1"-->
+## DIY Temperatuur sensor
+
+Wemos D1 mini
+
+DHT temperatuur sensor
+
+EspHome of Tasmota
+
+note:
+
+Wemos met temperatuur sensor laten zien.
+
+--
+
+<!-- .slide: data-menu-title="DIY Smart doorbell" -->
+## DIY Slimme Deurbel
 
 ![Smart doorbell](images/diy-smart-doorbell-test-bench.png)<!-- .element height="70%" width="70%" -->
 
@@ -684,30 +790,9 @@ note:
 
 Flash een LSC lamp van de Action met [Tuya - Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
---
-
-<!-- .slide: data-menu-title="Temperature sensor" -->
-## Temperatuur sensor
-
-Wemos + sensor + EspHome
-
 note:
 
-Wemos met temperatuur sensor laten zien.
-
----
-
-<!-- .slide: data-menu-title="Hoe begin je?" data-background-image="images/swimmer-on-starting-block.jpg" data-background-opacity="0.3" -->
-## Hoe begin je?
-
-- Doel: wat is het, dat je wil bereiken? <!-- .element: class="fragment" data-fragment-index="1" -->
-- Inventarisatie: wat heb je nu? <!-- .element: class="fragment" data-fragment-index="2" -->
-- Analyse: wat onbreekt er nog? <!-- .element: class="fragment" data-fragment-index="3" -->
-- Planning: maak een plan <!-- .element: class="fragment" data-fragment-index="4" -->
-- Actie:<!-- .element: class="fragment" data-fragment-index="5" -->
-  - middelen<!-- .element: class="fragment" data-fragment-index="6" -->
-  - kennis<!-- .element: class="fragment" data-fragment-index="7" -->
-  - aan de slag!<!-- .element: class="fragment" data-fragment-index="8" -->
+Demo Tasmota interface op LSC (Action) lamp
 
 ---
 
