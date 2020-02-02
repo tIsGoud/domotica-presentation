@@ -1,6 +1,12 @@
 
-<!-- .slide: data-menu-title="Domotica - GroSkills #5" data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
-# Domotica
+<!-- .slide: data-menu-title="GroSkills 5th edition" data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
+# GroSkills 5th edition
+
+donderdag 6 februari 2020
+
+## Domotica
+
+9:00 - 10:00 & 11:00 - 12:00
 
 note:
 GroSkills 5th edition, 6 februari 2020
@@ -8,10 +14,12 @@ GroSkills 5th edition, 6 februari 2020
 
 Todo:
 
+- roomba toevoegen ?
 - Visualisatie? Grafana
 - links bijwerken
 - tekst in de titels nazien
 - slide tekst in het Engels en Nederlands
+- DomoticaGrunn promoten (stickers)
 
 ---
 
@@ -24,39 +32,39 @@ Todo:
 
 ---
 
-<!-- .slide: data-menu-title="Domotica = Domus + Robotica" -->
-## Domotica ?
+<!-- .slide: data-menu-title="Domotica" -->
+## Domotica
 
 ![Domus + Robotica](images/Domus_plus_Robotica.png)<!-- .element height="90%" width="90%" -->
 
 --
 
-## Smart vs Automated
-
 <!-- .slide: data-menu-title="Smart vs Automated Home" -->
+## Smart vs Automated
 
 ![Smart vs Automated](images/smart_vs_automated_home.png)<!-- .element height="90%" width="90%" -->
 
 ---
 
-<!-- .slide: data-menu-title="Modern Times - Automated Eating" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.7" -->
+<!-- .slide: data-menu-title="Modern Times (1936)" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.7" -->
 
 ## Modern Times (1936)
 
+note:
+
+Charlie Chaplin in Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/giphy.gif)
+en eerder: Fritz Lang's Metropolis (1927)
+
 --
 
-<!-- .slide: data-menu-title="Domotica initieel" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.3" -->
-## Domotica initieel
+<!-- .slide: data-menu-title="Het Huis van de Toekomst (1989)" data-background-image="images/modern-times-automated-eatingss.gif" data-background-opacity="0.3" -->
+## Het Huis van de Toekomst (1989)
 
-Oorspronkelijk
+![Chriet Titulaer](images/Chriet-Titulaer-bij-het-Huis-van-de-Toekomst-in-Rosmalen-archieffoto-ANP.jpg)
 
-bedoelt voor
+note:
 
-personen met
-
-een "functiebeperking"
-
-note: Charlie Chaplin in Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/giphy.gif)
+Zomer van 1989, opening Huis van de Toekomst in Rosmalen
 
 ---
 
@@ -67,7 +75,11 @@ note: Charlie Chaplin in Modern Times (1936), [Giphy](https://media.giphy.com/me
 
 > De integratie van technologie en diensten, ten behoeve van een betere kwaliteit van wonen en leven.<!-- .element: class="fragment" data-fragment-index="2" -->
 
-note: Bronnen Wikipedia en Stichting Smart Homes
+note:
+
+Bronnen Wikipedia en Stichting Smart Homes
+
+Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 
 ---
 
@@ -342,6 +354,10 @@ note: å = &#x00E5;, Å = &#x00C5;
 - Focus op efficiente verwarming
 - Warmte "zones" (eigen thermostaatkranen)
 - Integraties met HomeKit, Alexa en Google Assistant
+
+note:
+
+Roomba, stofzuiger is een andere "specialist"
 
 ---
 
@@ -754,8 +770,17 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="DIY Projects" -->
-## DIY Projecten
+<!-- .slide: data-menu-title="Aan de slag" data-background-image="images/we-can-do-it-rosie-the-riveter.jpg" data-background-opacity="0.4" -->
+## Aan de slag
+
+--
+
+<!-- .slide: data-menu-title="Installeer Home Assistant" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+## Installeer Home Assistant
+
+![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="50%" width="50%" -->
+
+[Install Methods Comparison Matrix](https://docs.google.com/document/d/1KJKfaigHbOQylUUAzCc1wUy70FdTGRFE61HXamgAb-Q/edit)
 
 --
 
@@ -805,10 +830,15 @@ Demo Tasmota interface op LSC (Action) lamp
 - Beperk de externe afhankelijkheden
 - Zorg voor een fall-back scenario
 - Houdt rekening met de "PAF"
-- Je kunt meer dan je denkt
+- Je kunt meer dan je denkt (met een beetje hulp)
 
 note:
 PAF = Parter Acceptance Factor
+
+--
+
+<!-- .slide: data-menu-title="Vragen" data-background-image="images/questionmarks.jpg" data-background-opacity="1.0" -->
+
 
 ---
 
