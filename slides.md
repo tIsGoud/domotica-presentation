@@ -14,12 +14,10 @@ GroSkills 5th edition, 6 februari 2020
 
 Todo:
 
-- roomba toevoegen ?
 - Visualisatie? Grafana
 - links bijwerken
 - tekst in de titels nazien
 - slide tekst in het Engels en Nederlands
-- DomoticaGrunn promoten (stickers)
 
 ---
 
@@ -132,12 +130,21 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="Voorbeelden" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
-## Voorbeelden
+<!-- .slide: data-menu-title="Wat will jij automatiseren?" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
+## Wat will jij automatiseren?
+
+![Vaatwasser](images/vaatwasser.png)<!-- .element: class="fragment" data-fragment-index="1" align="left" height="50%" width="50%"-->
+![Roomba](images/stofzuiger.png)<!-- .element: class="fragment" data-fragment-index="2" align="right" height="50%" width="50%" -->
+
+note:
+
+Vaatwasser, wie heeft er geen, is ook een vorm van automatiseren
+Stofzuiger, automatische veger en een Roomba is nog een stap verder
 
 --
 
-<!-- .slide: data-menu-title="Mijn praktijk voorbeelden" -->
+<!-- .slide: data-menu-title="Mijn praktijk voorbeelden" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
+
 ## Mijn praktijk voorbeelden
 
 - Verwarming uit en aan o.b.v. aanwezigheid
@@ -194,7 +201,7 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 
 ---
 
-<!-- .slide: data-menu-title="Wat is er op de markt?" -->
+<!-- .slide: data-menu-title="Wat is er op de markt?" data-background-image="images/foto-Vismarkt-Groningen.jpg" data-background-opacity="0.4"-->
 ## Wat is er op de markt?
 
 en wat kun je zelf?
@@ -626,7 +633,7 @@ beware: limited number of zigbee devices, [further reading](https://github.com/K
 
 ---
 
-<!-- .slide: data-menu-title="DIY / Zelfbouw" -->
+<!-- .slide: data-menu-title="DIY / Zelfbouw" data-background-image="images/how-to-solder.jpg" data-background-opacity="0.3"-->
 ## DIY / Zelfbouw
 
 --
@@ -722,21 +729,6 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="HACS" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
-## HACS
-
-Home Assistant Community Store
-
-![HACS](images/hacs-logo.svg)<!-- .element height="40%" width="40%" align="left" -->
-
-[hacs.xyz](https://hacs.xyz)
-
-note:
-
-[HACS](https://hacs.xyz)
-
---
-
 <!-- .slide: data-menu-title="Home Assistant - Overview" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant - Overview
 
@@ -753,6 +745,47 @@ note:
 
 <!-- .slide: data-menu-title="Home Assistant Demo" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant Demo
+
+---
+
+<!-- .slide: data-menu-title="Home Assistant Community" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+## Home Assistant Community
+
+Resources
+
+![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="40%" width="40%" align="left"-->
+
+[Docs](https://www.home-assistant.io/docs/)
+
+[Help](https://www.home-assistant.io/help/)
+
+[Forum](https://community.home-assistant.io/)
+
+--
+
+<!-- .slide: data-menu-title="Awesome HA" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+## Awesome HA
+
+The awesome list
+
+![HACS](images/awesome-home-assistant.svg)<!-- .element height="40%" width="40%" align="left" -->
+
+[Awesome HA](https://www.awesome-ha.com)
+
+--
+
+<!-- .slide: data-menu-title="HACS" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+## HACS
+
+Home Assistant Community Store
+
+![HACS](images/hacs-logo.svg)<!-- .element height="40%" width="40%" align="left" -->
+
+[hacs.xyz](https://hacs.xyz)
+
+note:
+
+"Third" party extensions
 
 ---
 
@@ -831,11 +864,22 @@ Demo Tasmota interface op LSC (Action) lamp
 - Zorg voor een fall-back scenario
 - Houdt rekening met de "PAF"
 - Je kunt meer dan je denkt (met een beetje hulp)
+- Deel je ervaringen
 
 note:
 PAF = Parter Acceptance Factor
 
 --
+
+<!-- .slide: data-menu-title="DomoticaGrunn" data-background-image="images/maakplek.jpg" data-background-opacity="0.2" -->
+
+## DomoticaGrunn
+
+![DomoticaGrunn](images/domoticaGrunn.png)<!-- .element height="30%" width="30%"-->
+
+[Meetup](https://www.meetup.com/DomoticaGrunn/), ongeveer om de 6 weken bij de MaakPlek
+
+---
 
 <!-- .slide: data-menu-title="Vragen" data-background-image="images/questionmarks.jpg" data-background-opacity="1.0" -->
 
