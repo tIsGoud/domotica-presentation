@@ -1,10 +1,10 @@
 
-<!-- .slide: data-menu-title="GroSkills 5th edition" data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
-# GroSkills 5th edition
+<!-- .slide: data-menu-title="Domotica" data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
+# Domotica
 
 donderdag 6 februari 2020
 
-## Domotica
+## 5th GroSkills edition
 
 9:00 - 10:00 & 11:00 - 12:00
 
@@ -30,8 +30,9 @@ Todo:
 
 ---
 
-<!-- .slide: data-menu-title="Domotica" -->
-## Domotica
+<!-- .slide: data-menu-title="Home Automation" -->
+
+## Home Automation
 
 ![Domus + Robotica](images/Domus_plus_Robotica.png)<!-- .element height="90%" width="90%" -->
 
@@ -78,6 +79,8 @@ note:
 Bronnen Wikipedia en Stichting Smart Homes
 
 Oorspronkelijk bedoelt voor personen met een "functiebeperking"
+
+> "Early home automation began with labour-saving machines"
 
 ---
 
@@ -190,6 +193,7 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 
 <!-- .slide: data-menu-title="Project CHIP" -->
 ## Project CHIP
+
 ![Project CHIP](images/Project-Connected-Home-over-IP-Proposal.jpg)
 
 --
@@ -288,7 +292,6 @@ Multiprotocol gateway:
 
 <!-- .slide: data-menu-title="Philips Hue" data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
 ## Philips Hue LivingColors
-
 
 - [2.4 Ghz device in RFLink device list](http://www.rflink.nl/blog2/devlist)
 - [LivingColors 1st generation](http://www.knutsel.org/2009/01/01/livingcolors-1st-generation/)
@@ -574,7 +577,6 @@ Twee opties:
 Conbee, the universal Zigbee USB gateway
 ![Conbee](images/conbee.jpg)
 
-
 [Phoscon / Conbee](https://phoscon.de/en/conbee)
 
 Kosten: 40 euro, snelle levering
@@ -691,6 +693,7 @@ via Ali Express of Banggood
 ## Home Assistant
 
 ![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="30%" width="30%" align="left" -->
+
 - [home-assistant.io](https://www.home-assistant.io)
 - OpenSource
 - "New cool kid"
@@ -882,7 +885,6 @@ PAF = Parter Acceptance Factor
 ---
 
 <!-- .slide: data-menu-title="Vragen" data-background-image="images/questionmarks.jpg" data-background-opacity="1.0" -->
-
 
 ---
 
