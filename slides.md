@@ -1,5 +1,5 @@
 
-<!-- .slide: data-menu-title="Domotica" data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
+<!-- .slide: data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
 # Domotica
 
 donderdag 6 februari 2020
@@ -15,13 +15,11 @@ GroSkills 5th edition, 6 februari 2020
 Todo:
 
 - Visualisatie? Grafana
-- links bijwerken
-- tekst in de titels nazien
-- slide tekst in het Engels en Nederlands
+- slides.md en menu-links.html vertalen naar het Engels
 
 ---
 
-<!-- .slide: data-menu-title="Wat is Domotica" data-background-image="images/brain.png" data-background-opacity="0.2" -->
+<!-- .slide: data-background-image="images/brain.png" data-background-opacity="0.2" -->
 ## Wat is Domotica of Home Automation
 
 - Wat kun je ermee?
@@ -30,33 +28,30 @@ Todo:
 
 ---
 
-<!-- .slide: data-menu-title="Home Automation" -->
-
-## Home Automation
+## Home + Automation
 
 ![Domus + Robotica](images/Domus_plus_Robotica.png)<!-- .element height="90%" width="90%" -->
 
 --
 
-<!-- .slide: data-menu-title="Smart vs Automated Home" -->
 ## Smart vs Automated
 
 ![Smart vs Automated](images/smart_vs_automated_home.png)<!-- .element height="90%" width="90%" -->
 
 ---
 
-<!-- .slide: data-menu-title="Modern Times (1936)" data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.7" -->
+<!-- .slide: data-background-image="images/modern-times-automated-eating.gif" data-background-opacity="0.7" -->
 
 ## Modern Times (1936)
 
 note:
 
-Charlie Chaplin in Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/giphy.gif)
+Charlie Chaplin in Modern Times (1936), [Giphy](https://media.giphy.com/media/o2NnUFBsrOMog/giphy.gif) met de "feeding-machine".
 en eerder: Fritz Lang's Metropolis (1927)
 
 --
 
-<!-- .slide: data-menu-title="Het Huis van de Toekomst (1989)" data-background-image="images/modern-times-automated-eatingss.gif" data-background-opacity="0.3" -->
+<!-- .slide: data-background-image="images/modern-times-automated-eatingss.gif" data-background-opacity="0.3" -->
 ## Het Huis van de Toekomst (1989)
 
 ![Chriet Titulaer](images/Chriet-Titulaer-bij-het-Huis-van-de-Toekomst-in-Rosmalen-archieffoto-ANP.jpg)
@@ -67,7 +62,7 @@ Zomer van 1989, opening Huis van de Toekomst in Rosmalen
 
 ---
 
-<!-- .slide: data-menu-title="Definitions" data-background-image="images/wikipedia.png" data-background-opacity="0.1" -->
+<!-- .slide: data-background-image="images/wikipedia.png" data-background-opacity="0.1" -->
 ## Definities
 
 > Het toepassen van elektronica en huisnetwerken ten behoeve van de automatisering van processen in en om een woning. <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -84,7 +79,7 @@ Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 
 ---
 
-<!-- .slide: data-menu-title="Waarom niet" -->
+<!-- .slide: data-background-image="images/hakken-in-het-zand.jpg" data-background-opacity="0.3" -->
 ## Waarom niet?
 
 - Ingewikkeld
@@ -97,7 +92,7 @@ Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 
 --
 
-<!-- .slide: data-menu-title="Security" -->
+<!-- .slide: data-background-image="images/stop-shield-traffic-sign-road-sign.jpg" data-background-opacity="0.3" -->
 ## Security
 
 - Waar gaat jouw data naar toe?
@@ -109,7 +104,7 @@ Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 
 ---
 
-<!-- .slide: data-menu-title="Waarom wel" -->
+<!-- .slide: data-background-image="images/voorwaartvoorwaarts.jpg" data-background-opacity="0.3" -->
 ## Waarom wel?
 
 - Gebruiksgemak <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -128,13 +123,13 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="Wat wil je automatiseren" data-background-image="images/modern-times-work.gif" data-background-opacity="0.3"-->
-## Wat wil je automatiseren?
+<!-- .slide: data-background-image="images/modern-times-work.gif" data-background-opacity="0.3"-->
+## Automatiseren?
 
 --
 
-<!-- .slide: data-menu-title="Wat will jij automatiseren?" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
-## Wat will jij automatiseren?
+<!-- .slide: data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
+## Wat wil jij automatiseren?
 
 ![Vaatwasser](images/vaatwasser.png)<!-- .element: class="fragment" data-fragment-index="1" align="left" height="50%" width="50%"-->
 ![Roomba](images/stofzuiger.png)<!-- .element: class="fragment" data-fragment-index="2" align="right" height="50%" width="50%" -->
@@ -146,7 +141,7 @@ Stofzuiger, automatische veger en een Roomba is nog een stap verder
 
 --
 
-<!-- .slide: data-menu-title="Mijn praktijk voorbeelden" data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
+<!-- .slide: data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
 
 ## Mijn praktijk voorbeelden
 
@@ -162,7 +157,6 @@ Stofzuiger, automatische veger en een Roomba is nog een stap verder
 
 ---
 
-<!-- .slide: data-menu-title="Hoe werkt het" -->
 ## Hoe werkt het?
 
 ![Sensor - Controler - Actuator](images/sensor-controller-actuator.png)<!-- .element heigth="80%" width="80%" align="center" -->
@@ -176,7 +170,7 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 
 --
 
-<!-- .slide: data-menu-title="Signalen - Protocollen" data-background-image="images/tin-can-telephone.jpg" data-background-opacity="0.2"-->
+<!-- .slide: data-background-image="images/tin-can-telephone.jpg" data-background-opacity="0.2"-->
 ## Signalen - Protocollen
 
 - WiFi, 2,4 GHz
@@ -191,10 +185,12 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 
 --
 
-<!-- .slide: data-menu-title="Project CHIP" -->
 ## Project CHIP
 
 ![Project CHIP](images/Project-Connected-Home-over-IP-Proposal.jpg)
+
+note:
+Zigbee alliance changes
 
 --
 
@@ -205,7 +201,7 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 
 ---
 
-<!-- .slide: data-menu-title="Wat is er op de markt?" data-background-image="images/foto-Vismarkt-Groningen.jpg" data-background-opacity="0.4"-->
+<!-- .slide: data-background-image="images/foto-Vismarkt-Groningen.jpg" data-background-opacity="0.4"-->
 ## Wat is er op de markt?
 
 en wat kun je zelf?
@@ -216,6 +212,8 @@ Overgeleverd aan een leverancier of zelf in controle?
 
 --
 
+<!-- .slide: data-menu-title="Zigbee - WiFi overview" -->
+
 |              |                 Zigbee                 |              WiFi               |
 | :----------- | :------------------------------------: | :-----------------------------: |
 | Manufacturer | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi | Sonoff, Shelly, Tuya, Espressif |
@@ -224,14 +222,12 @@ Overgeleverd aan een leverancier of zelf in controle?
 
 ---
 
-<!-- .slide: data-menu-title="KlikAanKlikUit set" -->
 ## KlikAanKlikUit set
 
 ![KlikAanKlikUit](images/kaku-set.png)
 
 --
 
-<!-- .slide: data-menu-title="KlikAanKlikUit set" -->
 ## KlikAanKlikUit
 
 |                                                |                                              |                                                  |                                  |
@@ -249,7 +245,7 @@ Multiprotocol gateway:
 
 --
 
-<!-- .slide: data-menu-title="KlikAanKlikUit characteristics" data-background-image="images/kaku_bg.png" data-background-opacity="0.1"-->
+<!-- .slide: data-background-image="images/kaku_bg.png" data-background-opacity="0.1"-->
 ## KlikAanKlikUit kenmerken
 
 - Protocol: RF (433 en 868 MHz)
@@ -260,7 +256,7 @@ Multiprotocol gateway:
 
 --
 
-<!-- .slide: data-menu-title="KlikAanKlikUit integrations" data-background-image="images/diy_rf-link_gateway.png" data-background-opacity="0.2"-->
+<!-- .slide: data-background-image="images/diy_rf-link_gateway.png" data-background-opacity="0.2"-->
 ## KlikAanKlikUit integratie met RFLink
 
 - [How to connect Home Assistant & KlikaanKlikuit](https://medium.com/@renesijnke/how-to-connect-home-assistant-klikaanklikuit-kaku-492f8e7fdf4a)
@@ -268,7 +264,6 @@ Multiprotocol gateway:
 
 ---
 
-<!-- .slide: data-menu-title="Philips Hue" -->
 ## Philips Hue
 
 |                                  |                                      |                                |
@@ -278,7 +273,7 @@ Multiprotocol gateway:
 
 --
 
-<!-- .slide: data-menu-title="Philips Hue characteristics" data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
+<!-- .slide: data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
 ## Philips Hue kenmerken
 
 - Protocol: Zigbee
@@ -290,7 +285,7 @@ Multiprotocol gateway:
 
 --
 
-<!-- .slide: data-menu-title="Philips Hue" data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
+<!-- .slide: data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
 ## Philips Hue LivingColors
 
 - [2.4 Ghz device in RFLink device list](http://www.rflink.nl/blog2/devlist)
@@ -298,7 +293,6 @@ Multiprotocol gateway:
 
 ---
 
-<!-- .slide: data-menu-title="Ikea TR&#x00C5;DFRI" -->
 ## Ikea TR&Aring;DFRI
 
 |                                    |                                          |                                  |
@@ -310,8 +304,8 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 --
 
-<!-- .slide: data-menu-title="Ikea characteristics" data-background-image="images/Ikea-logo-bg.png" data-background-opacity="0.1"-->
-## Ikea kenmerken
+<!-- .slide: data-background-image="images/Ikea-logo-bg.png" data-background-opacity="0.1"-->
+## Ikea TR&Aring;DFRI kenmerken
 
 - Protocol: Zigbee
 - Integraties met HomeKit, Alexa en Google Assistant
@@ -322,7 +316,6 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 ---
 
-<!-- .slide: data-menu-title="Xiaomi" -->
 ## Xiaomi
 
 |                                             |                                             |                                      |
@@ -332,7 +325,7 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 --
 
-<!-- .slide: data-menu-title="Xiaomi characteristics" data-background-image="images/xiaomi_logo_bg.png" data-background-opacity="0.1" -->
+<!-- .slide: data-background-image="images/xiaomi_logo_bg.png" data-background-opacity="0.1" -->
 ## Xiaomi kenmerken
 
 - Protocol: Zigbee
@@ -344,7 +337,6 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 ---
 
-<!-- .slide: data-menu-title="Tado&deg;" -->
 ## Tado&deg;
 
 |                                                       |                                                             |                                               |                                       |
@@ -354,7 +346,7 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 --
 
-<!-- .slide: data-menu-title="Tado&deg; characteristics" data-background-image="images/tado_logo_bg.png" data-background-opacity="0.2"-->
+<!-- .slide: data-background-image="images/tado_logo_bg.png" data-background-opacity="0.2"-->
 ## Tado&deg; kenmerken
 
 - Protocol: 6LoWPAN (868 MHz, IPv6)
@@ -371,7 +363,6 @@ Roomba, stofzuiger is een andere "specialist"
 
 ---
 
-<!-- .slide: data-menu-title="Sonoff" -->
 ## Sonoff
 
 |                                            |                                        |                                      |
@@ -387,7 +378,7 @@ Flashen met Tasmota
 
 --
 
-<!-- .slide: data-menu-title="Sonoff characteristics" data-background-image="images/sonoff_logo.png" data-background-opacity="0.1" -->
+<!-- .slide: data-background-image="images/sonoff_logo.png" data-background-opacity="0.1" -->
 ## Sonoff kenmerken
 
 - Protocol: WiFi
@@ -397,15 +388,12 @@ Flashen met Tasmota
 
 --
 
-<!-- .slide: data-menu-title="Sonoff fail" -->
-
 ## Sonoff fail
 
 ![Sonoff fail](images/sonoff_fail.png)
 
 ---
 
-<!-- .slide: data-menu-title="Shelly"  -->
 ## Shelly
 
 |                                             |                                        |                                      |
@@ -419,7 +407,7 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="Shelly characteristics" data-background-image="images/shelly_logo_bg.png" data-background-opacity="0.1" -->
+<!-- .slide: data-background-image="images/shelly_logo_bg.png" data-background-opacity="0.1" -->
 ## Shelly kenmerken
 
 - Protocol: WiFi
@@ -431,7 +419,7 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="LSC (Tuya)" data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
+<!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
 ## LSC (Tuya)
 
 |                                  |                                  |                                |
@@ -441,7 +429,7 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="LSC (Tuya) characterisatics" data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
+<!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
 ## LSC (Tuya) kenmerken
 
 - Protocol: WiFi
@@ -452,40 +440,40 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="LSC (Tuya) firmware" data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
+<!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
 ## LSC (Tuya) firmware
 
 ![Tuya flashable devices](images/action_tuya_devices.jpeg)<!-- .element height="90%" width="90%" -->
 
-[Tuya-Convert](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
+[Tuya-Convert (C'T)](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
 [Tasmota templates](https://templates.blakadder.com)
 
+
 ---
 
-<!-- .slide: data-menu-title="Works with ... (voice)" -->
 ## Works with ... (voice)
 
 ![Voice assist](images/voice-assist.png)
 
 --
 
-<!-- .slide: data-menu-title="Works with Alexa" data-background-image="images/amazon_echo.png" data-background-opacity="0.4" -->
-## Works with Amazon
+<!-- .slide: data-background-image="images/amazon_echo.png" data-background-opacity="0.4" -->
+## Works with Amazon Alexa
 
 ![Alexa](images/alexa.png)<!-- .element height="90%" width="90%" -->
 
 --
 
-<!-- .slide: data-menu-title="Google Assistant" data-background-image="images/google_smart_speaker.png" data-background-opacity="0.4"-->
-## Works with Google
+<!-- .slide: data-background-image="images/google_smart_speaker.png" data-background-opacity="0.4"-->
+## Works with Google Assistant
 
 ![Google Assistant](images/google_assistant_with_nest.png)<!-- .element height="90%" width="90%" -->
 
 --
 
-<!-- .slide: data-menu-title="Apple Homekit" data-background-image="images/siri.png" data-background-opacity="0.2" -->
-## Works with Apple
+<!-- .slide: data-background-image="images/siri.png" data-background-opacity="0.2" -->
+## Works with Apple Homekit
 
 ![Apple HomeKit](images/apple_homekit.png)<!-- .element height="50%" width="50%" -->
 
@@ -498,9 +486,21 @@ Hue
 
 GitHub OpenSource
 
+--
+
+## Mozilla Common Voice
+
+![Mozilla mars](images/mars.svg)<!-- .element height="50%" width="50%" align="left" -->
+
+[Mozilla Common Voice project](https://voice.mozilla.org/en)
+
+[Mozilla Research: Speech & Machine Learning](https://research.mozilla.org/machine-learning/)
+
+note:
+Goal is to create a large enough dataset to train speech-to-text (STT) systems to meet production-quality standards
+
 ---
 
-<!-- .slide: data-menu-title="Opties" -->
 ## Opties: controle vs gemak
 
 - WiFi: leveranciers firmware of eigen?
@@ -513,6 +513,8 @@ Wat zijn de mogelijkheden?
 
 --
 
+<!-- .slide: data-menu-title="WiFi - Zigbee overview" -->
+
 |              |              WiFi               |                 Zigbee                 |
 | :----------- | :-----------------------------: | :------------------------------------: |
 | Manufacturer | Sonoff, Shelly, Tuya, Espressif | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi |
@@ -521,7 +523,6 @@ Wat zijn de mogelijkheden?
 
 ---
 
-<!-- .slide: data-menu-title="WiFi firmware" -->
 ## WiFi firmware vervangen
 
 Twee opties:
@@ -531,7 +532,6 @@ Twee opties:
 
 --
 
-<!-- .slide: data-menu-title="Tasmota" -->
 ## Tasmota
 
 ![Tasmota logo](images/tasmota-logo.svg)<!-- .element height="50%" width="50%" -->
@@ -548,7 +548,6 @@ Templates bevatten de specifieke device informatie
 
 --
 
-<!-- .slide: data-menu-title="ESPHome" -->
 ## ESPHome
 
 ![ESPHome logo](images/esphome.svg)
@@ -561,7 +560,6 @@ Home Assistant integratie
 
 ---
 
-<!-- .slide: data-menu-title="Zigbee gateway vervangen" -->
 ## Zigbee gateway vervangen
 
 Twee opties:
@@ -571,7 +569,7 @@ Twee opties:
 
 --
 
-<!-- .slide: data-menu-title="Conbee" data-background-image="images/phoscongw.png" data-background-opacity="0.2" -->
+<!-- .slide: data-background-image="images/phoscongw.png" data-background-opacity="0.2" -->
 ## Conbee
 
 Conbee, the universal Zigbee USB gateway
@@ -587,7 +585,6 @@ Complete omgeving
 
 --
 
-<!-- .slide: data-menu-title="Zigbee2mqtt" -->
 ## Zigbee2mqtt
 
 ![Zigbee2mqtt logo](images/zigbee2mqtt-logo.png)
@@ -610,7 +607,6 @@ beware: limited number of zigbee devices, [further reading](https://github.com/K
 
 --
 
-<!-- .slide: data-menu-title="Tasmota Zigbee" -->
 ## Tasmota Zigbee
 
 "Zigbee2mqtt rewrite to make it fit on an ESP82xx"
@@ -635,12 +631,12 @@ beware: limited number of zigbee devices, [further reading](https://github.com/K
 
 ---
 
-<!-- .slide: data-menu-title="DIY / Zelfbouw" data-background-image="images/how-to-solder.jpg" data-background-opacity="0.3"-->
+<!-- .slide: data-background-image="images/how-to-solder.jpg" data-background-opacity="0.3"-->
 ## DIY / Zelfbouw
 
 --
 
-<!-- .slide: data-menu-title="Espressif: ESP8266 & ESP32" data-background-image="images/ESP8266.jpg" data-background-opacity="0.1" -->
+<!-- .slide: data-background-image="images/ESP8266.jpg" data-background-opacity="0.1" -->
 ## Espressif: ESP8266 & ESP32
 
 [ESP8266](https://nl.aliexpress.com/item/32958591238.html) WiFi + IO ~ 3 euro
@@ -655,14 +651,12 @@ via Ali Express of Banggood
 
 ---
 
-<!-- .slide: data-menu-title="Domoticz" -->
 ## "The one to rule them all ..."
 
 ![the_one_to_rule_them_all.png](images/the_one_to_rule_them_all.png)<!-- .element height="50%" width="50%" -->
 
 --
 
-<!-- .slide: data-menu-title="Domoticz" -->
 ## Domoticz
 
 ![Domoticz](images/domoticz.png)<!-- .element height="30%" width="30%" align="left" -->
@@ -675,7 +669,6 @@ via Ali Express of Banggood
 
 --
 
-<!-- .slide: data-menu-title="openHAB" -->
 ## openHAB
 
 ![openHAB](images/openhab.png)<!-- .element height="30%" width="30%" align="left" -->
@@ -689,7 +682,6 @@ via Ali Express of Banggood
 
 --
 
-<!-- .slide: data-menu-title="Home Assistant"  -->
 ## Home Assistant
 
 ![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="30%" width="30%" align="left" -->
@@ -707,14 +699,14 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="Home Assistant in depth" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant in depth
 
 ![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="50%" width="50%" -->
 
 --
 
-<!-- .slide: data-menu-title="HA-Installatie" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## HA-Installatie
 
 - Hassbian (on Raspberry Pi)
@@ -732,26 +724,26 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="Home Assistant - Overview" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant - Overview
 
 ![Home Assistant overview](images/my_ha_overview.png)<!-- .element height="70%" width="70%" -->
 
 --
 
-<!-- .slide: data-menu-title="Home Assistant Demo" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant - Slaapkamer
 
 ![Home Assistant overview](images/my_ha_slaapkamer.png)<!-- .element height="90%" width="90%" -->
 
 --
 
-<!-- .slide: data-menu-title="Home Assistant Demo" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant Demo
 
 ---
 
-<!-- .slide: data-menu-title="Home Assistant Community" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Home Assistant Community
 
 Resources
@@ -760,13 +752,11 @@ Resources
 
 [Docs](https://www.home-assistant.io/docs/)
 
-[Help](https://www.home-assistant.io/help/)
-
 [Forum](https://community.home-assistant.io/)
 
 --
 
-<!-- .slide: data-menu-title="Awesome HA" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Awesome HA
 
 The awesome list
@@ -777,7 +767,7 @@ The awesome list
 
 --
 
-<!-- .slide: data-menu-title="HACS" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## HACS
 
 Home Assistant Community Store
@@ -792,7 +782,7 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="Hoe begin je?" data-background-image="images/swimmer-on-starting-block-cropped.jpg" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/swimmer-on-starting-block-cropped.jpg" data-background-opacity="0.4" -->
 ## Hoe begin je?
 
 - Doel: wat is het, dat je wil bereiken? <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -806,12 +796,12 @@ note:
 
 ---
 
-<!-- .slide: data-menu-title="Aan de slag" data-background-image="images/we-can-do-it-rosie-the-riveter.jpg" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/we-can-do-it-rosie-the-riveter.jpg" data-background-opacity="0.4" -->
 ## Aan de slag
 
 --
 
-<!-- .slide: data-menu-title="Installeer Home Assistant" data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+<!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Installeer Home Assistant
 
 ![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="50%" width="50%" -->
@@ -820,7 +810,7 @@ note:
 
 --
 
-<!-- .slide: data-menu-title="DIY Temperature sensor" data-background-image="images/wemos-dht-shield.png" data-background-opacity="0.1"-->
+<!-- .slide: data-background-image="images/wemos-dht-shield.png" data-background-opacity="0.1"-->
 ## DIY Temperatuur sensor
 
 Wemos D1 mini
@@ -835,7 +825,6 @@ Wemos met temperatuur sensor laten zien.
 
 --
 
-<!-- .slide: data-menu-title="DIY Smart doorbell" -->
 ## DIY Slimme Deurbel
 
 ![Smart doorbell](images/diy-smart-doorbell-test-bench.png)<!-- .element height="70%" width="70%" -->
@@ -844,7 +833,6 @@ Wemos met temperatuur sensor laten zien.
 
 --
 
-<!-- .slide: data-menu-title="Flash Tasmota firmware on lamp" -->
 ## Flash lamp met Tasmota
 
 ![Tasmota FLB04](images/tasmota-flb04.png)<!-- .element height="20%" width="20%" -->
@@ -857,7 +845,6 @@ Demo Tasmota interface op LSC (Action) lamp
 
 ---
 
-<!-- .slide: data-menu-title="Lessons learned" -->
 ## Lessons learned
 
 - Begin klein
@@ -874,13 +861,15 @@ PAF = Parter Acceptance Factor
 
 --
 
-<!-- .slide: data-menu-title="DomoticaGrunn" data-background-image="images/maakplek.jpg" data-background-opacity="0.2" -->
+<!-- .slide: data-background-image="images/maakplek.jpg" data-background-opacity="0.2" -->
 
 ## DomoticaGrunn
 
 ![DomoticaGrunn](images/domoticaGrunn.png)<!-- .element height="30%" width="30%"-->
 
 [Meetup](https://www.meetup.com/DomoticaGrunn/), ongeveer om de 6 weken bij de MaakPlek
+
+Volgende Meetup is gepland voor 19 february
 
 ---
 
