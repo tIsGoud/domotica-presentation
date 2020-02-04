@@ -232,8 +232,8 @@ Overgeleverd aan een leverancier of zelf in controle?
 
 |                                                |                                              |                                                  |                                  |
 | :--------------------------------------------: | :------------------------------------------: | :----------------------------------------------: | :------------------------------: |
-| ![KAKU schakelaar](images/kaku-schakelaar.png) | ![KAKU bediening](images/kaku-bediening.png) | ![KAKU Control Station](images/kaku-octopus.png) | ![KAKU app](images/kaku-app.png) |
-|                    **Lamp**                    |                **Bediening**                 |               **Control Station**                |             **App**              |
+| ![KAKU schakelaar](images/kaku-stopcontact.png) | ![KAKU bediening](images/kaku-bediening.png) | ![KAKU Control Station](images/kaku-octopus.png) | ![KAKU app](images/kaku-app.png) |
+|                    **Stopcontact**                    |                **Bediening**                 |               **Control Station**                |             **App**              |
 
 note:
 
@@ -448,7 +448,6 @@ note:
 [Tuya-Convert (C'T)](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
 [Tasmota templates](https://templates.blakadder.com)
-
 
 ---
 
