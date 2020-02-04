@@ -443,7 +443,7 @@ note:
 <!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
 ## LSC (Tuya) firmware
 
-![Tuya flashable devices](images/action_tuya_devices.jpeg)<!-- .element height="90%" width="90%" -->
+![Tuya flashable devices](images/action_tuya_devices.jpeg)<!-- .element height="80%" width="80%" -->
 
 [Tuya-Convert (C'T)](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
@@ -803,7 +803,7 @@ note:
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
 ## Installeer Home Assistant
 
-![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="50%" width="50%" -->
+![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="40%" width="40%" -->
 
 [Install Methods Comparison Matrix](https://docs.google.com/document/d/1KJKfaigHbOQylUUAzCc1wUy70FdTGRFE61HXamgAb-Q/edit)
 
