@@ -1,5 +1,5 @@
-
 <!-- .slide: data-background-image="images/groskills.jpg" data-background-opacity="0.3" -->
+
 # Domotica
 
 donderdag 6 februari 2020
@@ -20,6 +20,7 @@ Todo:
 ---
 
 <!-- .slide: data-background-image="images/brain.png" data-background-opacity="0.2" -->
+
 ## Wat is Domotica of Home Automation
 
 - Wat kun je ermee?
@@ -52,6 +53,7 @@ en eerder: Fritz Lang's Metropolis (1927)
 --
 
 <!-- .slide: data-background-image="images/modern-times-automated-eatingss.gif" data-background-opacity="0.3" -->
+
 ## Het Huis van de Toekomst (1989)
 
 ![Chriet Titulaer](images/Chriet-Titulaer-bij-het-Huis-van-de-Toekomst-in-Rosmalen-archieffoto-ANP.jpg)
@@ -63,6 +65,7 @@ Zomer van 1989, opening Huis van de Toekomst in Rosmalen
 ---
 
 <!-- .slide: data-background-image="images/wikipedia.png" data-background-opacity="0.1" -->
+
 ## Definities
 
 > Het toepassen van elektronica en huisnetwerken ten behoeve van de automatisering van processen in en om een woning. <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -80,6 +83,7 @@ Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 ---
 
 <!-- .slide: data-background-image="images/hakken-in-het-zand.jpg" data-background-opacity="0.3" -->
+
 ## Waarom niet?
 
 - Ingewikkeld
@@ -93,6 +97,7 @@ Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 --
 
 <!-- .slide: data-background-image="images/stop-shield-traffic-sign-road-sign.jpg" data-background-opacity="0.3" -->
+
 ## Security
 
 - Waar gaat jouw data naar toe?
@@ -105,14 +110,15 @@ Oorspronkelijk bedoelt voor personen met een "functiebeperking"
 ---
 
 <!-- .slide: data-background-image="images/voorwaartvoorwaarts.jpg" data-background-opacity="0.3" -->
+
 ## Waarom wel?
 
-- Gebruiksgemak <!-- .element: class="fragment" data-fragment-index="1" -->
-- Wooncomfort <!-- .element: class="fragment" data-fragment-index="2" -->
-- Veiligheid <!-- .element: class="fragment" data-fragment-index="3" -->
-- Efficient energie gebruik <!-- .element: class="fragment" data-fragment-index="4" -->
-- Leuk <!-- .element: class="fragment" data-fragment-index="5" -->
-- Leerzaam <!-- .element: class="fragment" data-fragment-index="6" -->
+- Gebruiksgemak
+- Wooncomfort
+- Veiligheid
+- Efficient energie gebruik
+- Leuk
+- Leerzaam
 
 note:
 
@@ -124,11 +130,13 @@ note:
 ---
 
 <!-- .slide: data-background-image="images/modern-times-work.gif" data-background-opacity="0.3"-->
+
 ## Automatiseren?
 
 --
 
 <!-- .slide: data-background-image="images/chip_bg.jpg" data-background-opacity="0.1"-->
+
 ## Wat wil jij automatiseren?
 
 ![Vaatwasser](images/vaatwasser.png)<!-- .element: class="fragment" data-fragment-index="1" align="left" height="50%" width="50%"-->
@@ -171,6 +179,7 @@ controller = verwerk sensor gegevens en stuur actuator aan (processor, regelaar,
 --
 
 <!-- .slide: data-background-image="images/tin-can-telephone.jpg" data-background-opacity="0.2"-->
+
 ## Signalen - Protocollen
 
 - WiFi, 2,4 GHz
@@ -195,6 +204,7 @@ Zigbee alliance changes
 --
 
 <!-- .slide: data-menu-title="MQTT" -->
+
 ![MQTT logo](images/mqtt-logo.png)
 
 > MQTT is a machine-to-machine (M2M)/IoT connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport.
@@ -202,6 +212,7 @@ Zigbee alliance changes
 ---
 
 <!-- .slide: data-background-image="images/foto-Vismarkt-Groningen.jpg" data-background-opacity="0.4"-->
+
 ## Wat is er op de markt?
 
 en wat kun je zelf?
@@ -209,16 +220,6 @@ en wat kun je zelf?
 note:
 
 Overgeleverd aan een leverancier of zelf in controle?
-
---
-
-<!-- .slide: data-menu-title="Zigbee - WiFi overview" -->
-
-|              |                 Zigbee                 |              WiFi               |
-| :----------- | :------------------------------------: | :-----------------------------: |
-| Manufacturer | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi | Sonoff, Shelly, Tuya, Espressif |
-| Controller   |           on premise, cloud            |        app, cloud based         |
-| Modification |  DeConz/Conbee, Zigbee2MQTT, Tasmota   |        Tasmota, ESPHome         |
 
 ---
 
@@ -230,10 +231,10 @@ Overgeleverd aan een leverancier of zelf in controle?
 
 ## KlikAanKlikUit
 
-|                                                |                                              |                                                  |                                  |
-| :--------------------------------------------: | :------------------------------------------: | :----------------------------------------------: | :------------------------------: |
+|                                                 |                                              |                                                  |                                  |
+| :---------------------------------------------: | :------------------------------------------: | :----------------------------------------------: | :------------------------------: |
 | ![KAKU schakelaar](images/kaku-stopcontact.png) | ![KAKU bediening](images/kaku-bediening.png) | ![KAKU Control Station](images/kaku-octopus.png) | ![KAKU app](images/kaku-app.png) |
-|                    **Stopcontact**                    |                **Bediening**                 |               **Control Station**                |             **App**              |
+|                 **Stopcontact**                 |                **Bediening**                 |               **Control Station**                |             **App**              |
 
 note:
 
@@ -246,6 +247,7 @@ Multiprotocol gateway:
 --
 
 <!-- .slide: data-background-image="images/kaku_bg.png" data-background-opacity="0.1"-->
+
 ## KlikAanKlikUit kenmerken
 
 - Protocol: RF (433 en 868 MHz)
@@ -257,6 +259,7 @@ Multiprotocol gateway:
 --
 
 <!-- .slide: data-background-image="images/diy_rf-link_gateway.png" data-background-opacity="0.2"-->
+
 ## KlikAanKlikUit integratie met RFLink
 
 - [How to connect Home Assistant & KlikaanKlikuit](https://medium.com/@renesijnke/how-to-connect-home-assistant-klikaanklikuit-kaku-492f8e7fdf4a)
@@ -274,6 +277,7 @@ Multiprotocol gateway:
 --
 
 <!-- .slide: data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
+
 ## Philips Hue kenmerken
 
 - Protocol: Zigbee
@@ -286,6 +290,7 @@ Multiprotocol gateway:
 --
 
 <!-- .slide: data-background-image="images/philips-hue-logo.png" data-background-opacity="0.2"-->
+
 ## Philips Hue LivingColors
 
 - [2.4 Ghz device in RFLink device list](http://www.rflink.nl/blog2/devlist)
@@ -305,6 +310,7 @@ note: å = &#x00E5;, Å = &#x00C5;
 --
 
 <!-- .slide: data-background-image="images/Ikea-logo-bg.png" data-background-opacity="0.1"-->
+
 ## Ikea TR&Aring;DFRI kenmerken
 
 - Protocol: Zigbee
@@ -326,6 +332,7 @@ note: å = &#x00E5;, Å = &#x00C5;
 --
 
 <!-- .slide: data-background-image="images/xiaomi_logo_bg.png" data-background-opacity="0.1" -->
+
 ## Xiaomi kenmerken
 
 - Protocol: Zigbee
@@ -339,14 +346,15 @@ note: å = &#x00E5;, Å = &#x00C5;
 
 ## Tado&deg;
 
-|                                                       |                                                             |                                               |                                       |
-| :---------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------: | :-----------------------------------: |
-| ![Tado&deg; Thermostaat](images/tado_thermostaat.png) | ![Tado&deg; radiator kraan](images/tado_radiator_kraan.png) | ![Tado&deg; gateway](images/tado_gateway.png) | ![Tado&deg; app](images/tado_app.png) |
-|                    **Thermostaat**                    |                          **Kraan**                          |                  **Gateway**                  |                **App**                |
+|                                                   |                                                         |                                           |                                   |
+| :-----------------------------------------------: | :-----------------------------------------------------: | :---------------------------------------: | :-------------------------------: |
+| ![Tado° Thermostaat](images/tado_thermostaat.png) | ![Tado° radiator kraan](images/tado_radiator_kraan.png) | ![Tado° gateway](images/tado_gateway.png) | ![Tado° app](images/tado_app.png) |
+|                  **Thermostaat**                  |                        **Kraan**                        |                **Gateway**                |              **App**              |
 
 --
 
 <!-- .slide: data-background-image="images/tado_logo_bg.png" data-background-opacity="0.2"-->
+
 ## Tado&deg; kenmerken
 
 - Protocol: 6LoWPAN (868 MHz, IPv6)
@@ -379,6 +387,7 @@ Flashen met Tasmota
 --
 
 <!-- .slide: data-background-image="images/sonoff_logo.png" data-background-opacity="0.1" -->
+
 ## Sonoff kenmerken
 
 - Protocol: WiFi
@@ -408,6 +417,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/shelly_logo_bg.png" data-background-opacity="0.1" -->
+
 ## Shelly kenmerken
 
 - Protocol: WiFi
@@ -420,6 +430,7 @@ note:
 ---
 
 <!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
+
 ## LSC (Tuya)
 
 |                                  |                                  |                                |
@@ -430,6 +441,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
+
 ## LSC (Tuya) kenmerken
 
 - Protocol: WiFi
@@ -441,6 +453,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/action_logo.png" data-background-opacity="0.2" -->
+
 ## LSC (Tuya) firmware
 
 ![Tuya flashable devices](images/action_tuya_devices.jpeg)<!-- .element height="80%" width="80%" -->
@@ -458,6 +471,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/amazon_echo.png" data-background-opacity="0.4" -->
+
 ## Works with Amazon Alexa
 
 ![Alexa](images/alexa.png)<!-- .element height="90%" width="90%" -->
@@ -465,6 +479,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/google_smart_speaker.png" data-background-opacity="0.4"-->
+
 ## Works with Google Assistant
 
 ![Google Assistant](images/google_assistant_with_nest.png)<!-- .element height="90%" width="90%" -->
@@ -472,6 +487,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/siri.png" data-background-opacity="0.2" -->
+
 ## Works with Apple Homekit
 
 ![Apple HomeKit](images/apple_homekit.png)<!-- .element height="50%" width="50%" -->
@@ -569,6 +585,7 @@ Twee opties:
 --
 
 <!-- .slide: data-background-image="images/phoscongw.png" data-background-opacity="0.2" -->
+
 ## Conbee
 
 Conbee, the universal Zigbee USB gateway
@@ -599,7 +616,7 @@ Kosten: 18 euro, lange levertijd
 note:
 
 Onderdelen kopen, hardware flashen met extra hardware.
-7 euro voor  Sniffer en extra kabel
+7 euro voor Sniffer en extra kabel
 11 euro voor de flash hardware
 
 beware: limited number of zigbee devices, [further reading](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator)
@@ -631,11 +648,13 @@ beware: limited number of zigbee devices, [further reading](https://github.com/K
 ---
 
 <!-- .slide: data-background-image="images/how-to-solder.jpg" data-background-opacity="0.3"-->
+
 ## DIY / Zelfbouw
 
 --
 
 <!-- .slide: data-background-image="images/ESP8266.jpg" data-background-opacity="0.1" -->
+
 ## Espressif: ESP8266 & ESP32
 
 [ESP8266](https://nl.aliexpress.com/item/32958591238.html) WiFi + IO ~ 3 euro
@@ -699,6 +718,7 @@ note:
 ---
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Home Assistant in depth
 
 ![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="50%" width="50%" -->
@@ -706,6 +726,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## HA-Installatie
 
 - Hassbian (on Raspberry Pi)
@@ -724,6 +745,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Home Assistant - Overview
 
 ![Home Assistant overview](images/my_ha_overview.png)<!-- .element height="70%" width="70%" -->
@@ -731,6 +753,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Home Assistant - Slaapkamer
 
 ![Home Assistant overview](images/my_ha_slaapkamer.png)<!-- .element height="90%" width="90%" -->
@@ -738,11 +761,13 @@ note:
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Home Assistant Demo
 
 ---
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Home Assistant Community
 
 Resources
@@ -756,6 +781,7 @@ Resources
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Awesome HA
 
 The awesome list
@@ -767,6 +793,7 @@ The awesome list
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## HACS
 
 Home Assistant Community Store
@@ -782,6 +809,7 @@ note:
 ---
 
 <!-- .slide: data-background-image="images/swimmer-on-starting-block-cropped.jpg" data-background-opacity="0.4" -->
+
 ## Hoe begin je?
 
 - Doel: wat is het, dat je wil bereiken? <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -796,11 +824,13 @@ note:
 ---
 
 <!-- .slide: data-background-image="images/we-can-do-it-rosie-the-riveter.jpg" data-background-opacity="0.4" -->
+
 ## Aan de slag
 
 --
 
 <!-- .slide: data-background-image="images/home-assistant-bg.png" data-background-opacity="0.4" -->
+
 ## Installeer Home Assistant
 
 ![Home Assistant](images/home_assistant_logo.svg)<!-- .element height="40%" width="40%" -->
@@ -810,6 +840,7 @@ note:
 --
 
 <!-- .slide: data-background-image="images/wemos-dht-shield.png" data-background-opacity="0.1"-->
+
 ## DIY Temperatuur sensor
 
 Wemos D1 mini
@@ -828,7 +859,7 @@ Wemos met temperatuur sensor laten zien.
 
 ![Smart doorbell](images/diy-smart-doorbell-test-bench.png)<!-- .element height="70%" width="70%" -->
 
-[Smart doorbell for just $2](https://frenck.dev/diy-smart-doorbell-for-just-2-dollar/)
+[Smart doorbell for just \$2](https://frenck.dev/diy-smart-doorbell-for-just-2-dollar/)
 
 --
 
@@ -877,3 +908,7 @@ Volgende Meetup is gepland voor 19 february
 ---
 
 <!-- .slide: data-menu-title="That's all folks" data-background-image="images/Thats_all_Folks.jpg" data-background-opacity="1.0" -->
+
+![QR-code to slides](images/qr-code-slides.svg)<!-- .element height="80%" width="80%" class="fragment" data-fragment-index="1"-->
+
+[https://speakerdeck.com/tisgoud/domotica](https://speakerdeck.com/tisgoud/domotica)<!-- .element height="80%" width="80%" class="fragment" data-fragment-index="1"-->
