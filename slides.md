@@ -285,7 +285,7 @@ Multiprotocol gateway:
 - Groeiend "exclusief" assortiment
 - Eigen gateway
 - Alternatieve Zigbee gateways mogelijk
-  - Deconz/Cponbee, Tasmota of Zigbee2MQTT
+  - Deconz/Conbee, Tasmota of Zigbee2MQTT
 
 --
 
@@ -532,7 +532,7 @@ Wat zijn de mogelijkheden?
 
 |              |              WiFi               |                 Zigbee                 |
 | :----------- | :-----------------------------: | :------------------------------------: |
-| Manufacturer | Sonoff, Shelly, Tuya, Espressif | Philps Hue, Ikea TR&Aring;DFRI, Xiaomi |
+| Manufacturer | Sonoff, Shelly, Tuya, Espressif | Philips Hue, Ikea TR&Aring;DFRI, Xiaomi |
 | Controller   |        app, cloud based         |           on premise, cloud            |
 | Modification |        Tasmota, ESPHome         |  Deconz, Conbee, Zigbee2MQTT, Tasmota  |
 
