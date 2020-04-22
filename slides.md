@@ -2,11 +2,11 @@
 
 # Domotica
 
-donderdag 6 februari 2020
+donderdag 22 april 2020
 
-## 5th GroSkills edition
+## 1st online GroSkills
 
-9:00 - 10:00 & 11:00 - 12:00
+11:00 - 12:00
 
 note:
 GroSkills 5th edition, 6 februari 2020
@@ -461,6 +461,21 @@ note:
 [Tuya-Convert (C'T)](https://www.heise.de/ct/artikel/Tuya-Convert-Escaping-the-IoT-Cloud-no-solder-needed-4284830.html)
 
 [Tasmota templates](https://templates.blakadder.com)
+
+---
+
+## Samsung SmartThings
+
+![Samsung SmartThings](images/samsung-smartthings.png)<!-- .element height="80%" width="80%" -->
+
+--
+
+## SmartThings kenmerken
+
+- Protocollen: WiFi, Zigbee, Z-Wave
+- Relatief nieuw
+- Groot (extern) assortiment
+- Prijzig
 
 ---
 

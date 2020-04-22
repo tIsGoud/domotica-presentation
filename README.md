@@ -6,10 +6,12 @@ _[EN] What is domotics or home automation? Slides from my [presentation](https:/
 
 ![Domotica](images/Domus_plus_Robotica.png)
 
-Deze [presentatie](https://tisgoud.github.io/domotica-presentation/) is twee keer gegeven tijdens het 5e GroSkills evenement in Groningen op 6 februari 2020.
+Deze [presentatie](https://tisgoud.github.io/domotica-presentation/) is twee keer live gegeven tijdens het 5e GroSkills evenement in Groningen op 6 februari 2020 en tijdens de Covid-19 periode op 23 april als webinar tijdens het online GroSkills evenement.
+
 
 - Eerste sessie 9:00 - 10:00 (Slides NL, talk in NL)
 - Tweede sessie om 11:00 - 12:00 (Slides in NL, talk in EN) Slides vertalen naar EN is nog een todo.
+- Derde sessie 11:00 - 12:00 (Webinar)
 
 In de presentatie wordt verwezen naar verschillende bronnen, hieronder een lijst daarvan:
 
