@@ -2,7 +2,7 @@
 
 # Domotica
 
-donderdag 22 april 2020
+donderdag 23 april 2020
 
 ## 1st online GroSkills
 
@@ -913,8 +913,6 @@ PAF = Parter Acceptance Factor
 ![DomoticaGrunn](images/domoticaGrunn.png)<!-- .element height="30%" width="30%"-->
 
 [Meetup](https://www.meetup.com/DomoticaGrunn/), ongeveer om de 6 weken bij de MaakPlek
-
-Volgende Meetup is gepland voor 19 february
 
 ---
 
