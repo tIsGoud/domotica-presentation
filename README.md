@@ -11,7 +11,7 @@ Deze [presentatie](https://tisgoud.github.io/domotica-presentation/) is twee kee
 
 - Eerste sessie 9:00 - 10:00 (Slides NL, talk in NL)
 - Tweede sessie om 11:00 - 12:00 (Slides in NL, talk in EN) Slides vertalen naar EN is nog een todo.
-- Derde sessie 11:00 - 12:00 (Webinar)
+- Derde sessie 11:00 - 12:00 (Webinar via Teams)
 
 In de presentatie wordt verwezen naar verschillende bronnen, hieronder een lijst daarvan:
 
